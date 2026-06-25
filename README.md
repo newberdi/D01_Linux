@@ -1,34 +1,36 @@
-## D01 - Базовое администрирование Linux
+## D01 - Basic Linux Administration
 
-Введение в основы администрирования ОС Ubuntu Server 20.04 LTS. Проект охватывает первичную настройку системы, управление пользователями, работу с сетью, текстовыми редакторами и базовый мониторинг.
+**Project status:** Completed.
+
+Introduction to the fundamentals of Ubuntu Server 20.04 LTS administration. The project covers initial system setup, user management, networking, text editors, and basic monitoring.
 
 
-### О проекте
+### About the Project
 
-Этот проект -- первое практическое знакомство с операционной системой Linux. Цель состояла в том, чтобы вручную пройти все шаги от установки ОС до настройки планировщика задач, которые обычно выполняет системный администратор на новом сервере.
+This project is a first hands-on introduction to the Linux operating system. The goal was to manually perform all the steps, from OS installation to task scheduler configuration, that a system administrator typically executes on a new server.
 
-Вся работа выполнялась на виртуальной машине с **Ubuntu Server 20.04 LTS** без графического интерфейса.
+All work was carried out on a virtual machine running **Ubuntu Server 20.04 LTS** without a graphical interface.
 
-### Ключевые навыки
+### Key Skills
 
-В ходе выполнения проекта были освоены и применены следующие технологии и инструменты:
+The following technologies and tools were learned and applied during the project:
 
-- **ОС:** Ubuntu Server 20.04 LTS
-- **Сеть:** Настройка статического IP, DHCP, работа с `netplan`
-- **Пользователи и права:** `adduser`, `usermod`, `sudo`, группы
-- **Текстовые редакторы:** VIM, Nano, Joe (поиск и замена)
-- **Мониторинг и система:** `top`, `htop`, `fdisk`, `df`, `du`, `ncdu`
-- **Логирование и задачи:** Системные журналы (`syslog`, `auth.log`), `cron`
-- **SSH:** Базовая настройка и безопасность службы `sshd`
+- **OS:** Ubuntu Server 20.04 LTS
+- **Network:** Static IP configuration, DHCP, working with `netplan`
+- **Users and Permissions:** `adduser`, `usermod`, `sudo`, groups
+- **Text Editors:** VIM, Nano, Joe (search and replace)
+- **Monitoring and System:** `top`, `htop`, `fdisk`, `df`, `du`, `ncdu`
+- **Logging and Tasks:** System logs (`syslog`, `auth.log`), `cron`
+- **SSH:** Basic configuration and security of the `sshd` service
 
-### Выполненные задачи
+### Completed Tasks
 
-Краткий список того, что было сделано:
+Below is a brief summary of what was done:
 
-1.  **Установка и настройка ОС:** Установка Ubuntu Server 20.04, задание имени хоста, временной зоны.
-2.  **Сеть:** Настройка статического IP-адреса, шлюза и DNS через `netplan`.
-3.  **Пользователи:** Создание нового пользователя, добавление в группу `adm` и выдача прав `sudo`.
-4.  **Безопасность:** Настройка службы `SSHD` на нестандартный порт 2022.
-5.  **Работа с текстом:** Освоение редакторов VIM, Nano и Joe с отработкой поиска и замены.
-6.  **Мониторинг системы:** Анализ загрузки ЦП, памяти и дисков с помощью `top`, `htop`, `df`, `du`, `ncdu`.
-7.  **Логи и автоматизация:** Анализ системных журналов и настройка задач в `cron`.
+1.  **OS Installation and Setup:** Installing Ubuntu Server 20.04, setting the hostname and time zone.
+2.  **Network:** Configuring a static IP address, gateway, and DNS via `netplan`.
+3.  **Users:** Creating a new user, adding them to the `adm` group, and granting `sudo` privileges.
+4.  **Security:** Configuring the `SSHD` service on a non-standard port 2022.
+5.  **Working with Text:** Mastering the VIM, Nano, and Joe editors with search and replace practice.
+6.  **System Monitoring:** Analyzing CPU, memory, and disk usage using `top`, `htop`, `df`, `du`, `ncdu`.
+7.  **Logs and Automation:** Analyzing system logs and configuring `cron` jobs.
