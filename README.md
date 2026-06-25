@@ -1,9 +1,6 @@
 ## D01 - Basic Linux Administration
 
-**Project status:** Completed.
-
 Introduction to the fundamentals of Ubuntu Server 20.04 LTS administration. The project covers initial system setup, user management, networking, text editors, and basic monitoring.
-
 
 ### About the Project
 
@@ -34,3 +31,5 @@ Below is a brief summary of what was done:
 5.  **Working with Text:** Mastering the VIM, Nano, and Joe editors with search and replace practice.
 6.  **System Monitoring:** Analyzing CPU, memory, and disk usage using `top`, `htop`, `df`, `du`, `ncdu`.
 7.  **Logs and Automation:** Analyzing system logs and configuring `cron` jobs.
+
+School 21 educational project
